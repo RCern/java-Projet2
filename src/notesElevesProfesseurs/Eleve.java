@@ -99,7 +99,6 @@ public class Eleve {
                 if (evaluations.get(i).getMatiere().compareTo(matiere) == 0) {
                     evaluations.sort(Comparator.comparing(Evaluation::getNote));
                     if (evaluations.size() % 2 == 0) {
-
                         mediane = (evaluations.get(evaluations.size() / 2).getNote() + evaluations.get((evaluations.size() / 2) - 1).getNote()) / 2;
                     } else {
                         mediane = evaluations.get(evaluations.size() / 2).getNote();

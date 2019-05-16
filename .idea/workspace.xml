@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a531f6e-8953-47ab-9446-7a7a7585481f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfreechart_1_0_19_demo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/Bulletin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/BulletinFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/MenuEleve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/V3/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/MenuProfesseur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/Notes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetJava2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetJava2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJava2/GUI/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJava2/GUI/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetJava2/notesElevesProfesseurs/Eleve.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJava2/notesElevesProfesseurs/Eleve.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ProjetJava2/notesElevesProfesseurs/Professeur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetJava2/notesElevesProfesseurs/Professeur.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notesElevesProfesseurs/Eleve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notesElevesProfesseurs/Eleve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/notesElevesProfesseurs/Professeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notesElevesProfesseurs/Professeur.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="112" column="31" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
+            <state relative-caret-position="251">
+              <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="93" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5201#5202#0" expanded="true" />
@@ -38,11 +35,40 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GUI/MenuProfesseur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GUI/Notes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="715">
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/MenuEleve.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="934">
-              <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+            <state relative-caret-position="360">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#451#452#0" expanded="true" />
@@ -52,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GUI/Bulletin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="69" />
+            <state relative-caret-position="180">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
@@ -91,12 +117,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/notesElevesProfesseurs/Professeur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
-              <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+            <state relative-caret-position="260">
+              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2775#2776#0" expanded="true" />
                 <element signature="e#2829#2830#0" expanded="true" />
+                <element signature="e#2859#2860#0" expanded="true" />
                 <element signature="e#2885#2886#0" expanded="true" />
                 <element signature="e#2918#2919#0" expanded="true" />
                 <element signature="e#2947#2948#0" expanded="true" />
@@ -108,10 +135,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/notesElevesProfesseurs/Promotion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1340">
-              <caret line="118" column="72" selection-start-line="118" selection-start-column="72" selection-end-line="118" selection-end-column="72" />
+            <state relative-caret-position="80">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#405#406#0" expanded="true" />
                 <element signature="e#435#436#0" expanded="true" />
               </folding>
@@ -122,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/notesElevesProfesseurs/Eleve.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="691">
+              <caret line="100" column="54" selection-start-line="100" selection-start-column="54" selection-end-line="100" selection-end-column="54" />
               <folding>
                 <element signature="e#980#981#0" expanded="true" />
                 <element signature="e#1012#1013#0" expanded="true" />
@@ -156,19 +182,21 @@
         <option value="$PROJECT_DIR$/src/test/main.java" />
         <option value="$PROJECT_DIR$/src/notesElevesProfesseurs/Promotion.java" />
         <option value="$PROJECT_DIR$/src/GUI.java" />
-        <option value="$PROJECT_DIR$/src/notesElevesProfesseurs/Eleve.java" />
         <option value="$PROJECT_DIR$/src/V3/NotesTemplate.java" />
         <option value="$PROJECT_DIR$/../../../../notes2/src/main/java/com/thi/notes/service/NoteService.java" />
         <option value="$PROJECT_DIR$/src/V3/NotesFrame.java" />
         <option value="$PROJECT_DIR$/src/V3/main.java" />
         <option value="$PROJECT_DIR$/src/GUI/TabDemo.java" />
-        <option value="$PROJECT_DIR$/src/notesElevesProfesseurs/Professeur.java" />
         <option value="$PROJECT_DIR$/src/GUI/BulletinFrame.java" />
         <option value="$PROJECT_DIR$/src/GUI/GraphesBarres.java" />
-        <option value="$PROJECT_DIR$/../../../../123.java" />
-        <option value="$PROJECT_DIR$/src/GUI/GUI.java" />
-        <option value="$PROJECT_DIR$/src/GUI/MenuEleve.java" />
         <option value="$PROJECT_DIR$/src/GUI/Bulletin.java" />
+        <option value="$PROJECT_DIR$/src/GUI/MenuEleve.java" />
+        <option value="$PROJECT_DIR$/../../../../123.java" />
+        <option value="$PROJECT_DIR$/src/notesElevesProfesseurs/Eleve.java" />
+        <option value="$PROJECT_DIR$/src/GUI/GUI.java" />
+        <option value="$PROJECT_DIR$/src/notesElevesProfesseurs/Professeur.java" />
+        <option value="$PROJECT_DIR$/src/GUI/Notes.java" />
+        <option value="$PROJECT_DIR$/src/GUI/MenuProfesseur.java" />
       </list>
     </option>
   </component>
@@ -237,8 +265,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558024239682" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jfreechart-1.0.19/jfreechart-1.0.19-demo.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558038416776" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../123.java" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -346,7 +374,7 @@
       <workItem from="1557655878995" duration="23000" />
       <workItem from="1557737334947" duration="3883000" />
       <workItem from="1557825322210" duration="599000" />
-      <workItem from="1558012097397" duration="12120000" />
+      <workItem from="1558012097397" duration="20578000" />
     </task>
     <task id="LOCAL-00001" summary="op">
       <created>1553722424110</created>
@@ -369,16 +397,54 @@
       <option name="project" value="LOCAL" />
       <updated>1554933207682</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="op">
+      <created>1558024263930</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558024263930</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39843000" />
+    <option name="totallyTimeSpent" value="48301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18443497" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28277355" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -408,7 +474,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -612,33 +678,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../123.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.desktop/javax/swing/JComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1746">
-          <caret line="22" selection-start-line="22" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#3480#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="278">
+          <caret line="1677" column="30" lean-forward="true" selection-start-line="1677" selection-start-column="30" selection-end-line="1677" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/GUI.java">
+    <entry file="file://$PROJECT_DIR$/../../../../123.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="112" column="31" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5201#5202#0" expanded="true" />
-            <element signature="e#5259#5260#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="351">
+          <caret line="137" column="26" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="137" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/notesElevesProfesseurs/Eleve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="691">
+          <caret line="100" column="54" selection-start-line="100" selection-start-column="54" selection-end-line="100" selection-end-column="54" />
           <folding>
             <element signature="e#980#981#0" expanded="true" />
             <element signature="e#1012#1013#0" expanded="true" />
@@ -648,24 +705,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/notesElevesProfesseurs/Promotion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1340">
-          <caret line="118" column="72" selection-start-line="118" selection-start-column="72" selection-end-line="118" selection-end-column="72" />
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
             <element signature="e#435#436#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="93" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5201#5202#0" expanded="true" />
+            <element signature="e#5259#5260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/notesElevesProfesseurs/Professeur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+        <state relative-caret-position="260">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2775#2776#0" expanded="true" />
             <element signature="e#2829#2830#0" expanded="true" />
+            <element signature="e#2859#2860#0" expanded="true" />
             <element signature="e#2885#2886#0" expanded="true" />
             <element signature="e#2918#2919#0" expanded="true" />
             <element signature="e#2947#2948#0" expanded="true" />
@@ -675,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/MenuEleve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+        <state relative-caret-position="360">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#451#452#0" expanded="true" />
@@ -687,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/Bulletin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="69" />
+        <state relative-caret-position="180">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
@@ -701,6 +770,31 @@
             <element signature="e#227#228#0" expanded="true" />
             <element signature="e#276#277#0" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/Notes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/MenuProfesseur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="112" column="29" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
           </folding>
         </state>
       </provider>

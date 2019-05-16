@@ -43,7 +43,7 @@ public class Professeur {
         return id;
     }
 
-    public void setNote(Promotion promotion, int id, double note, int indice){
+    public void setNote(Promotion promotion, int id, double note, int indice, String matiere){
 
         for(int i = 0;i < promotion.getEleves().size();i++) {
 
@@ -52,7 +52,7 @@ public class Professeur {
                     promotion.getEleves().get(i).getEvaluations().get(indice).setNote(note);
                 else{
 
-                    promotion.getEleves().get(i).getEvaluations().add(new Evaluation(" ", note, promotion.getEleves().get(i), this));
+                    promotion.getEleves().get(i).getEvaluations().add(new Evaluation(matiere, note, promotion.getEleves().get(i), this));
                 }
             }
 

@@ -88,8 +88,7 @@ public class GUI extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 int id = Integer.parseInt(tf2.getText());
                 if(id < professeurs.length){
-                    //professeurs_stats(id);
-
+                    professeurs_menu(id);
                 }
             }
         });
@@ -106,6 +105,18 @@ public class GUI extends JFrame{
         JFrame frame = new JFrame("Menu de "+eleves[id].getNames());
 
         MenuEleve menu = new MenuEleve(eleves[id]);
+
+        frame.setContentPane(menu.getContentPane());
+
+        frame.pack();
+        frame.setVisible(true);
+    }
+
+    private void professeurs_menu(int id){
+        //Frame Menu
+        JFrame frame = new JFrame(" Menu de "+professeurs[id].getPrenom()+" "+professeurs[id].getNom());
+
+        MenuProfesseur menu = new MenuProfesseur(professeurs[id], promos);
 
         frame.setContentPane(menu.getContentPane());
 
