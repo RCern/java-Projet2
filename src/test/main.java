@@ -5,12 +5,8 @@ import notesElevesProfesseurs.Evaluation;
 import notesElevesProfesseurs.Professeur;
 import notesElevesProfesseurs.Promotion;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.*;
-
-import static csvUtils.lectureCsv.*;
 
 public class main {
 
@@ -18,73 +14,75 @@ public class main {
     public static void main(String[] args) throws IOException {
 
         Promotion promo2021 = new Promotion("2021");
-        Eleve gicu = new Eleve("Radu","Cernaianu",new Date(1956,02,03),promo2021);
-        Eleve gicu1 = new Eleve("Mathis","Bicheyre",new Date(1956,02,03),promo2021);
-        Eleve gicu2 = new Eleve("Warren","Djedir",new Date(1956,02,03),promo2021);
+
+        Eleve eleve1 = new Eleve("Radu","Cernaianu",new Date(1998,02,03),promo2021);
+        Eleve eleve2 = new Eleve("Mathis","Bicheyre",new Date(1998,02,03),promo2021);
+        Eleve eleve3 = new Eleve("Alexia","Blum",new Date(1997,02,03),promo2021);
 
 
-        Professeur boss = new Professeur(0,"Abina" ,"Abi");
-        Professeur boss1 = new Professeur(1,"Vinaver" ,"Georges");
-        Professeur boss2 = new Professeur(2,"Nicolas" ,"Flasque");
+        Professeur prof1 = new Professeur(0,"Jean" ,"Paul");
+        Professeur prof2 = new Professeur(1,"Georges" ,"Dusac");
+        Professeur prof3 = new Professeur(2,"Jean" ,"Pierre");
 
-        Evaluation ievalueare = new Evaluation("Physique", 12.0, gicu,boss);
-        Evaluation ievalueare2 = new Evaluation("Mathematiques", 15.0, gicu,boss1);
-        Evaluation ievalueare3 = new Evaluation("Informatique", 17.0, gicu,boss2);
-
-
-        Evaluation ievalueare4 = new Evaluation("Physique", 15.0, gicu1,boss);
-        Evaluation ievalueare5 = new Evaluation("Mathematiques", 17.0, gicu1,boss1);
-        Evaluation ievalueare6 = new Evaluation("Informatique", 10.0, gicu1,boss2);
+        Evaluation evaluation1 = new Evaluation("Physique", 10.0, eleve2,prof1);
+        Evaluation evaluation2 = new Evaluation("Mathematiques", 15.0, eleve2,prof2);
+        Evaluation evaluation3 = new Evaluation("Informatique", 12.0, eleve2,prof3);
 
 
-        Evaluation ievalueare7 = new Evaluation("Physique", 5.0, gicu2,boss);
-        Evaluation ievalueare8 = new Evaluation("Mathematiques", 15.0, gicu2,boss1);
-        Evaluation ievalueare9 = new Evaluation("Informatique", 19.0, gicu2,boss2);
+        Evaluation evaluation4 = new Evaluation("Physique", 8.0, eleve2,prof1);
+        Evaluation evaluation5 = new Evaluation("Mathematiques", 15.0, eleve2,prof2);
+        Evaluation evaluation6 = new Evaluation("Informatique", 12.0, eleve2,prof3);
 
 
 
-        gicu.getEvaluations().add(ievalueare);
-        gicu.getEvaluations().add(ievalueare2);
-        gicu.getEvaluations().add(ievalueare3);
-
-        gicu1.getEvaluations().add(ievalueare4);
-        gicu1.getEvaluations().add(ievalueare5);
-        gicu1.getEvaluations().add(ievalueare6);
-
-        gicu2.getEvaluations().add(ievalueare7);
-        gicu2.getEvaluations().add(ievalueare8);
-        gicu2.getEvaluations().add(ievalueare9);
-
-        promo2021.getEleves().add(gicu);
-        promo2021.getEleves().add(gicu1);
-        promo2021.getEleves().add(gicu2);
+        Evaluation evaluation7 = new Evaluation("Physique", 11.0, eleve3,prof1);
+        Evaluation evaluation8 = new Evaluation("Mathematiques", 12.5, eleve3,prof2);
+        Evaluation evaluation9 = new Evaluation("Informatique", 14.0, eleve3,prof3);
 
 
 
+        eleve1.getEvaluations().add(evaluation1);
+        eleve1.getEvaluations().add(evaluation2);
+        eleve1.getEvaluations().add(evaluation3);
 
-        //System.out.println(gicu1.getId());
-        //System.out.println(boss.rechercheEleve(promo2021,1));
+        eleve2.getEvaluations().add(evaluation4);
+        eleve2.getEvaluations().add(evaluation5);
+        eleve2.getEvaluations().add(evaluation6);
 
+        eleve3.getEvaluations().add(evaluation7);
+        eleve3.getEvaluations().add(evaluation8);
+        eleve3.getEvaluations().add(evaluation9);
 
-        System.out.println(promo2021.moyenneMatiere("Physique"));
-
-        System.out.println(gicu.bulletin());
-
-        //System.out.println(gicu1.bulletin());
-        //System.out.println(gicu2.bulletin());
-
-        /*
-
-
-        List<Eleve> el = lireElevesCsv();
-        List<Professeur> prfs = lireProfesseursCsv();
-        List<Evaluation> evals = lireEvaluations(el,prfs);
-
-        List<Promotion> prom = lirePromotionCsv(el);
+        promo2021.getEleves().add(eleve1);
+        promo2021.getEleves().add(eleve2);
+        promo2021.getEleves().add(eleve3);
 
 
-        System.out.println(prom.get(0).getEleves().get(1).bulletin());
-*/
+
+        //Tests fonction eleves
+
+        System.out.println(eleve1);
+
+
+        System.out.println("\n");
+
+        // Tests promotion
+        System.out.println("Promotion 2021: " + promo2021);
+       System.out.println("Eleve avec l'identifiant 1 dans la promotion 2021: "+promo2021.rechercher(1));
+
+       promo2021.croissantMediane();
+       System.out.println("Croissant mediane: "+promo2021);
+
+        promo2021.croissantMoyenne();
+        System.out.println("Croissant moyenne: "+promo2021);
+
+        promo2021.decroissantMediane();
+        System.out.println("Decroissant mediane: "+promo2021);
+
+        promo2021.decroissantMoyenne();
+        System.out.println("Decroissant moyenne: "+promo2021);
+
+
 
 
 

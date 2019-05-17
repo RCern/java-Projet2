@@ -44,19 +44,28 @@ public class Professeur {
     }
 
     public void setNote(Promotion promotion, int id, double note, int indice, String matiere){
-
+        boolean flag = true;
         for(int i = 0;i < promotion.getEleves().size();i++) {
 
             if(promotion.getEleves().get(i).getId() == id) {
-                if (promotion.getEleves().get(i).getEvaluations().get(indice) != null)
-                    promotion.getEleves().get(i).getEvaluations().get(indice).setNote(note);
+                flag = false;
+                if (indice < promotion.getEleves().get(i).getEvaluations().size() ) {
+                    if (promotion.getEleves().get(i).getEvaluations().get(indice) != null)
+                        promotion.getEleves().get(i).getEvaluations().get(indice).setNote(note);
+                }
                 else{
 
                     promotion.getEleves().get(i).getEvaluations().add(new Evaluation(matiere, note, promotion.getEleves().get(i), this));
                 }
+
+            }
+            else if(flag ){
+                flag = true;
             }
 
         }
+        if (flag)
+            throw new IllegalStateException("L'éleve est introuvable.");
 
     }
 
@@ -64,8 +73,6 @@ public class Professeur {
         List<Eleve> eleves = lireElevesCsv();
         List<Professeur> professeurs = lireProfesseursCsv();
         List<Evaluation> evals = lireEvaluations(eleves,professeurs);
-
-        //System.out.println(evals);
 
         for (int i = 0; i < evals.size();i++){
             if(evals.get(i).getEleve().getId() == id && evals.get(i).getProfesseur().getId() == this.id)

@@ -84,7 +84,6 @@ public class Promotion {
     }
 
 
-    //To do mathis
     public double mediane(){
         List<Double> temp = new LinkedList<>();
 
@@ -92,8 +91,8 @@ public class Promotion {
             temp.add(eleves.get(i).moyenne());
         }
         if (temp.size() == 0) {
-            // throw new IllegalStateException("Evaluations vide");
-            return 0;
+throw new IllegalStateException("Evaluations vide");
+
         } else {
             double mediane = 0;
 
@@ -121,8 +120,7 @@ public class Promotion {
             }
         }
         if (temp.size() == 0) {
-            // throw new IllegalStateException("Evaluations vide");
-            return 0;
+            throw new IllegalStateException("Evaluations vide");
         } else {
             System.out.println(temp);
             double mediane = 0;

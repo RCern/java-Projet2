@@ -38,10 +38,9 @@ public class Eleve {
     }
 
     public double moyenne() {
-        // System.out.println(evaluations.get().getNote());
         if (evaluations.size() == 0) {
-            //throw new IllegalStateException("Evaluations vide");
-            return 0;
+            throw new IllegalStateException("Evaluations vide");
+
         } else {
             double moyenne = 0;
             for (int i = 0; i < evaluations.size(); i++) {
@@ -54,8 +53,8 @@ public class Eleve {
     public double moyenneMatiere(String matiere) {
 
         if (evaluations.size() == 0) {
-            //throw new IllegalStateException("Evaluations vide");
-            return 0;
+            throw new IllegalStateException("Evaluations vide");
+
         } else {
             double moyenne = 0;
             int balise = 0;
@@ -72,8 +71,8 @@ public class Eleve {
 
     public double mediane() {
         if (evaluations.size() == 0) {
-            // throw new IllegalStateException("Evaluations vide");
-            return 0;
+             throw new IllegalStateException("Evaluations vide");
+
         } else {
             double mediane = 0;
 
@@ -90,8 +89,7 @@ public class Eleve {
 
     public double medianeMatiere(String matiere) {
         if (evaluations.size() == 0) {
-            // throw new IllegalStateException("Evaluations vide");
-            return 0;
+            throw new IllegalStateException("Evaluations vide");
         } else {
             double mediane = 0;
 
