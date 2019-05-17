@@ -146,10 +146,14 @@ public class MenuProfesseur {
         for(Promotion prom : promotion){
             List<Eleve> list_eleves = prom.getEleves();
             eleves = new String[eleves.length + prom.getEleves().size()];
-            if(list_eleves.get(0).getEvaluations().get(i).getProfesseur().getNom() == professeur.getNom()){
-                for(Eleve eleve : list_eleves) {
-                    eleves[j++] = eleve.getId() + " - " + eleve.getNames() + " - " + prom.getNom();
+            while(i<list_eleves.get(0).getEvaluations().size()) {
+                if (list_eleves.get(0).getEvaluations().get(i).getProfesseur().getNom() == professeur.getNom()) {
+                    for (Eleve eleve : list_eleves) {
+                        eleves[j++] = eleve.getId() + " - " + eleve.getNames() + " - " + prom.getNom();
+                    }
+                    break;
                 }
+                i++;
             }
         }
         return eleves;
